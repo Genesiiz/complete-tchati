@@ -1,0 +1,7 @@
+body {
+  background: var(--second);
+  color: var(--primary);
+  font-family: $family-primary;
+}
+
+button:hover { cursor: pointer; }

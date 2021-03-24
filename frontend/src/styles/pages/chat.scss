@@ -1,0 +1,48 @@
+@import "../vars.scss";
+
+.chat-container {
+  padding-left: 3rem;
+  &.openleft { padding-left: 15rem; }
+  &.openright { padding-right: 27rem; }
+}
+.side-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+  top: 0;
+  height: 100vh;
+  padding: 0;
+  box-shadow: none;
+  background-color: var(--second);
+
+  z-index: 40;
+
+  &-left {
+    left: 0;
+    width: 3rem;
+    &.open { width: 15rem; }
+  }
+  &-right {
+    right: 0;
+    width: 0;
+    &.open { width: 27rem; }
+  }
+}
+.plain-area {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: var(--second-dark);
+}
+.fixed-bottom {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  bottom: 0.75rem; left: 60%;
+  transform: translateX(-50%);
+}

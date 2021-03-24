@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+// TODO: sort global styles to static directory!
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+@import "./vars.scss";
+
+// Import only what you need from Bulma
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/grid/_all.sass";
+@import "bulma/sass/helpers/_all.sass";
+
+// Typography
+@import "./global.scss";
+@import "./typography.scss";

@@ -1,0 +1,23 @@
+@import "../../vars.scss";
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  max-height: 400px;
+
+  background-color: var(--second-dark);
+  border: 1px solid var(--primary-low);
+  color: var(--primary);
+  border-radius: 7px;
+  padding: .5rem;
+  margin: 0 .9rem;
+
+  button {
+    position: absolute;
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    z-index: 99;
+    opacity: 0;
+  }
+}

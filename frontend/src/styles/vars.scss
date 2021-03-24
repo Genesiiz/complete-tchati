@@ -1,0 +1,33 @@
+// Set your brand colors
+:root {
+  --primary: #111111;
+  --second: #fffefc;
+  --info: #56a7d7;
+  --success: yellowgreen;
+  --warning: coral;
+  --danger: #cf534a;
+
+  --primary-low: #918f89;
+  --second-dark: #f9f5f1;
+}
+
+// Global color variables
+$primary: #f9f5f1;
+$link: #56a7d7;
+$info: #56a7d7;
+$success: yellowgreen;
+$warning: coral;
+$danger: #cf534a;
+$dark: #111111;
+$text: #111111;
+
+// Update Bulma's global variables
+$family-primary: 'Open Sans', sans-serif;
+$family-secondary: 'Merriweather', serif;
+
+$gap: 32px;
+$column-gap: 0.75rem;
+$tablet: 769px;
+$desktop: 960px + (2 * $gap);
+$widescreen: 1152px + (2 * $gap);
+$fullhd: 1344px + (2 * $gap);

@@ -1,0 +1,35 @@
+@import "../../vars.scss";
+
+.message-toolbar {
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--second);
+  border-radius: 7px;
+  padding: .5rem;
+  margin: 0 .9rem;
+}
+
+.shortcut-message {
+  position: relative;
+  &:hover {
+    & .message-box-container { visibility: visible !important; }
+  }
+}
+.message-box-container {
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  padding: .75rem;
+  padding-bottom: 1rem;
+
+  &:hover { visibility: visible !important; }
+}
+.message-box {
+  background-color: var(--primary);
+}
+.emoji-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 250px;
+}

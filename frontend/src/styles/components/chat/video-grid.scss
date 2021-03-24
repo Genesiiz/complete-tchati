@@ -1,0 +1,14 @@
+.video-grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  background: var(--second-dark);
+  display: block;
+  width: 21.875rem; height: 15.625rem;
+  border-radius: 7px;
+  margin: 0.9375rem;
+}
